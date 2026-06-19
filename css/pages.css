@@ -1974,3 +1974,215 @@ line-height:1.9;
 line-height:1.9;
 color:#475569;
 }
+
+/* ==========================================================
+   ABOUT PAGE - MOBILE OPTIMIZATION
+========================================================== */
+
+@media (max-width: 768px){
+
+    /* Hero */
+
+    .about-hero-grid{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .workflow-visual{
+        padding:24px;
+    }
+
+    .workflow-step{
+        gap:12px;
+        margin:14px 0;
+        font-size:.9rem;
+    }
+
+    .workflow-step .circle{
+        width:42px;
+        height:42px;
+        font-size:.9rem;
+        flex-shrink:0;
+    }
+
+    /* Timeline */
+
+    .timeline:before{
+        left:18px;
+    }
+
+    .timeline-item{
+        gap:16px;
+        margin-bottom:32px;
+    }
+
+    .timeline-year{
+        width:50px;
+        font-size:.85rem;
+    }
+
+    .timeline-content{
+        padding:18px;
+    }
+
+    .timeline-content h4{
+        font-size:1rem;
+        margin-bottom:8px;
+    }
+
+    .timeline-content p{
+        font-size:.9rem;
+        line-height:1.7;
+    }
+
+    /* Mission & Vision */
+
+    .mission-vision{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .mission-card,
+    .vision-card{
+        padding:24px;
+    }
+
+    /* Compare Section */
+
+    .compare-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .problem-box,
+    .solution-box{
+        padding:24px;
+    }
+
+    /* Ecosystem */
+
+    .ecosystem{
+        min-height:auto;
+        display:grid;
+        grid-template-columns:1fr;
+        gap:16px;
+        padding:20px 0;
+    }
+
+    .ecosystem-center{
+        width:140px;
+        height:140px;
+        margin:auto;
+        font-size:1.2rem;
+    }
+
+    .eco-item{
+        position:static;
+        width:100%;
+        text-align:center;
+    }
+
+    /* Values */
+
+    .about-values-grid{
+        grid-template-columns:1fr;
+        gap:18px;
+    }
+
+    .value-card{
+        padding:28px 20px;
+    }
+
+    /* Team */
+
+    .team-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .team-card{
+        padding:24px;
+    }
+
+    .team-avatar{
+        width:70px;
+        height:70px;
+        font-size:1.3rem;
+    }
+
+    /* Partners */
+
+    .partners-grid{
+        grid-template-columns:1fr;
+    }
+
+    .partner-card{
+        padding:18px;
+    }
+
+    /* Principles */
+
+    .principles-grid{
+        grid-template-columns:1fr;
+    }
+
+    .principle{
+        padding:24px;
+    }
+
+    /* Future Section */
+
+    .future-section{
+        padding:80px 20px;
+    }
+
+    .future-section h2{
+        font-size:2rem !important;
+        line-height:1.15;
+    }
+
+    .future-section p{
+        font-size:.95rem;
+        line-height:1.8;
+    }
+}
+
+
+/* Extra Small Phones */
+
+@media (max-width:480px){
+
+    .page-hero{
+        padding:120px 0 60px;
+    }
+
+    .page-hero h1{
+        font-size:2rem !important;
+        line-height:1.15;
+    }
+
+    .page-hero p{
+        font-size:.95rem;
+    }
+
+    .workflow-step{
+        align-items:flex-start;
+    }
+
+    .timeline-year{
+        font-size:.8rem;
+    }
+
+    .ecosystem-center{
+        width:120px;
+        height:120px;
+        font-size:1rem;
+    }
+
+    .mission-card,
+    .vision-card,
+    .problem-box,
+    .solution-box{
+        padding:20px;
+    }
+}
